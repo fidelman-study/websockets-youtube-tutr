@@ -15,6 +15,10 @@ io.on('connection', (socket) => {
 
     // Emit events
     socket.on('chat', (data) => {
-        io.sockets.emit('chat', data);
+        io.sockets.emit('chat', data); // to everyone
+    });
+
+    socket.on('typing', (data) => {
+        socket.broadcast.emit('typing', data); // to evetyone except emitter
     });
 });
