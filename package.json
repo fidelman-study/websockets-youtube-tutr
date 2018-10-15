@@ -1,0 +1,23 @@
+{
+  "name": "websockets-youtube-tutr",
+  "version": "1.0.0",
+  "description": "Youtube tutorials from https://www.youtube.com/watch?v=ggVsXljT0MI&list=PL4cUxeGkcC9i4V-_ZVwLmOusj8YAUhj_9&index=2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fidelman-study/websockets-youtube-tutr"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
